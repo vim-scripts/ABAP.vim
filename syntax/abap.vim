@@ -56,7 +56,7 @@ syn match abapIdentifier	/\<\l\+\>/
 syn match abapNumber		"-\=\<\d*\.\=[0-9_]\>"	contained
 
 " Comments:
-syn match abapLineComment	"\*.*" 
+syn match abapLineComment	"^[*].*" 
 syn match abapComment	"\".*" 
 
 syn sync ccomment abapComment
@@ -100,4 +100,4 @@ endif
 
 let b:current_syntax = "ABAP"
 
-" vim: ts=8
+" vim: ts=4
