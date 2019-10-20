@@ -56,6 +56,9 @@ syn keyword abapStatement	describe split condense clear
 syn keyword abapStatement 	format exit continue reject on single
 syn keyword abapStatement	into values from where ref end begin type to
 syn keyword abapStatement	definition load block with frame title work and or of
+syn keyword abapStatement NEW VALUE CONV CORRESPONDING CAST REF EXACT REDUCE FILTER COND SWITCH
+syn keyword abapStatement BIT-AND BIT-XOR BIT-OR
+
 syn match abapStatement		/create object/
 syn match abapStatement		/move-corresponding/
 syn match abapStatement		/lower case obligatory/
